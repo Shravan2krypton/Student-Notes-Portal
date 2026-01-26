@@ -1,0 +1,33 @@
+/* Layout-specific styles */
+.layout-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Prevent layout shift */
+.layout-viewport {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Body styles */
+body {
+  font-family: Roboto, 'Open Sans', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Optimize for print */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

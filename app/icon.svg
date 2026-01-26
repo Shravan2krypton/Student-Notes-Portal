@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Student Notes Portal">
+  <defs>
+    <linearGradient id="g" x1="32" y1="32" x2="224" y2="224" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="0.55" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="216" height="216" rx="56" fill="url(#g)"/>
+  <g fill="#fff">
+    <path opacity="0.18" d="M64 92c0-11 9-20 20-20h88c11 0 20 9 20 20v72c0 11-9 20-20 20H84c-11 0-20-9-20-20V92z"/>
+    <path d="M82 86h92c6.6 0 12 5.4 12 12v66c0 6.6-5.4 12-12 12H82c-6.6 0-12-5.4-12-12V98c0-6.6 5.4-12 12-12zm10 30a6 6 0 0 0 0 12h72a6 6 0 0 0 0-12H92zm0 26a6 6 0 0 0 0 12h52a6 6 0 0 0 0-12H92z"/>
+    <path d="M110 72c0-7.7 6.3-14 14-14s14 6.3 14 14v10h-28V72z"/>
+  </g>
+</svg>

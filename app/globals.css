@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f6f8fb;
+  --text: #222;
+  --muted: #667085;
+  --primary: #2563eb;
+  --accent: #22c55e;
+  --highlight: #f59e0b;
+}
+
+.dark {
+  --bg: #0a0a0a;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+}
+
+html {
+  font-size: 16px;
+}
+
+/* Prevent flash of unstyled content */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
