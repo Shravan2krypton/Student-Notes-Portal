@@ -84,7 +84,10 @@ export default function FeedbackForm() {
           </svg>
         </div>
         <h3 className="mb-2 text-xl font-bold text-success-800 dark:text-success-200">Thank You!</h3>
-        <p className="mb-6 text-success-700 dark:text-success-300">We've received your feedback and appreciate your input.</p>
+        <p className="mb-6 text-success-700 dark:text-success-300">
+  {"We've received your feedback and appreciate your input."}
+</p>
+
         <button
           type="button"
           onClick={() => setStatus("idle")}
@@ -128,7 +131,10 @@ export default function FeedbackForm() {
           className="w-full rounded-xl border border-slate-300/80 bg-white px-4 py-3 text-base text-slate-900 placeholder-slate-500 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all dark:border-slate-600/80 dark:bg-slate-800 dark:text-white dark:placeholder-slate-400"
           placeholder="name@example.com or +91..."
         />
-        <p className="mt-2 text-sm text-slate-500">Only if you'd like us to follow up with you</p>
+        <p className="mt-2 text-sm text-slate-500">
+          {"Only if you'd like us to follow up with you"}
+        </p>
+
       </div>
       
       {error && (

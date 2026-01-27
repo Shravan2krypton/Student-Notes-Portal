@@ -47,9 +47,10 @@ export default async function Home() {
               Empowering Students, One Note at a Time
             </h1>
             <p className="text-lg text-slate-700 dark:text-slate-300 sm:text-xl">
-              Success doesn't come from what you do occasionally; it comes from what you do consistently. Find
-              curated notes, PYQs, and uploads from seniors — all in one place.
-            </p>
+  {"Success doesn't come from what you do occasionally; it comes from what you do consistently."} Find
+  curated notes, PYQs, and uploads from seniors — all in one place.
+</p>
+
             <div className="flex flex-col gap-4 sm:flex-row">
               {deptRows.slice(0, 2).map((dept) => (
                 <Link
